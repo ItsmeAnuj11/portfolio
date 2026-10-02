@@ -124,7 +124,7 @@ export default function About() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-teal-500"></span>
                 </span>
-                Let's Connect
+                Let&apos;s Connect
               </h3>
               
               <div className="grid grid-cols-2 gap-3">
