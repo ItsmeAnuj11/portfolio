@@ -23,14 +23,13 @@ export default function Certificates() {
           subtitle="Professional certifications and credentials I've earned."
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div ref={ref} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {certificates.map((cert, index) => (
             <motion.a
               key={cert.id}
               href={cert.link}
               target="_blank"
               rel="noopener noreferrer"
-              ref={ref}
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: index * 0.15 }}
