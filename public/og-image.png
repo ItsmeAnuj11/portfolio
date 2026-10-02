@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#07080F"/>
+  <!-- Gradient blobs -->
+  <circle cx="200" cy="200" r="400" fill="#7C5CFF" opacity="0.08"/>
+  <circle cx="1000" cy="450" r="350" fill="#00E5C3" opacity="0.07"/>
+  <!-- Grid -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#7C5CFF" stroke-width="0.5" opacity="0.06"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <!-- Content -->
+  <text x="80" y="240" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="72" fill="url(#textGrad)">Anuj Kumar</text>
+  <text x="80" y="326" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="72" fill="url(#textGrad)">Panday M</text>
+  <text x="82" y="400" font-family="Inter, sans-serif" font-weight="400" font-size="28" fill="#8A90A8">Software Engineer | Data Science &amp; AI</text>
+  <text x="82" y="450" font-family="Inter, sans-serif" font-weight="400" font-size="20" fill="#8A90A8">Chennai, Tamil Nadu, India</text>
+  <!-- Logo -->
+  <rect x="1080" y="40" width="80" height="80" rx="16" fill="#0F1220" stroke="#7C5CFF" stroke-width="1" opacity="0.5"/>
+  <text x="1120" y="92" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="28" fill="url(#textGrad)" text-anchor="middle">AP</text>
+  <defs>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C5CFF"/>
+      <stop offset="100%" stop-color="#00E5C3"/>
+    </linearGradient>
+  </defs>
+</svg>

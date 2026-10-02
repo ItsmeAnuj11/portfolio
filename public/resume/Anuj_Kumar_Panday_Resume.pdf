@@ -1,0 +1,7 @@
+This is a placeholder for the resume PDF.
+
+Please replace this file with the actual resume:
+  public/resume/Anuj_Kumar_Panday_Resume.pdf
+
+The file must be a valid PDF file. Once replaced, the "Resume" download
+button in the Navbar and Hero section will serve the correct document.
